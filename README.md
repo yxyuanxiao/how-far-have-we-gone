@@ -16,8 +16,8 @@
 </div>
 <div align="center">
   <sup>1</sup>Fudan University, <sup>2</sup>Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, 
-  <sup>3</sup>University of the Chinese Academy of Sciences,<sup>4</sup>Multimedia Laboratory, The Chinese University of Hong Kong, 
-  <sup>5</sup>Shenzhen University of Advanced Technology,<sup>6</sup>INSAIT, Sofia University "St. Kliment Ohridski"
+  <sup>3</sup>University of the Chinese Academy of Sciences, <sup>4</sup>Multimedia Laboratory, The Chinese University of Hong Kong, 
+  <sup>5</sup>Shenzhen University of Advanced Technology, <sup>6</sup>INSAIT, Sofia University "St. Kliment Ohridski"
 </div>
 
 
