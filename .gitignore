@@ -1,0 +1,40 @@
+# source file related
+*__pycache__*
+*.pyc
+*.o
+*.so
+*.egg
+*.egg-info
+
+# training related
+*log*
+*.log
+*.pth
+*.pt
+
+# result related
+*answer*
+*ckpt*
+*.json
+*.jsonl
+res_*
+
+# checkpoints & generated data (host on cloud drive, see README)
+checkpoints/
+results/
+data_preprocess/split.json
+data_preprocess/json_dir/
+data_preprocess/train/
+data_preprocess/test/
+
+# config files that MUST be tracked (override *.json above)
+!scripts/zero3.json
+!scripts/zero3_offload.json
+!preprocessor/preprocessor_config.json
+!preprocessor/special_tokens_map.json
+!preprocessor/tokenizer_config.json
+!build_soft_labels/config.json
+!data_preprocess/config.json
+
+# mac hidden
+*.DS_Store*

@@ -1,0 +1,137 @@
+{
+  "answer": "The quality of the image is {}.",
+  "dataset_params": {
+    "Content_Conciseness": {
+      "questions": [
+        "How concise and uncluttered does this image appear?",
+        "Does the picture feel visually clean or crowded?",
+        "How would you rate the simplicity of the image content?",
+        "Are there unnecessary elements that distract from the main subject?",
+        "How balanced and focused does the image composition look?",
+        "Does the content feel overly busy or appropriately concise?",
+        "Rate the overall visual simplicity of this image.",
+        "How well does the image convey information without clutter?",
+        "Do you find the image visually concise or overloaded?",
+        "How minimalistic or crowded is this picture in terms of content?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Content_Conciseness.json",
+      "save_train": "train/train_Content_Conciseness.json",
+      "save_test": "test/test_Content_Conciseness.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    },
+    "Detail_Completeness": {
+      "questions": [
+        "How complete are the fine details in this image?",
+        "Does the image preserve small texture details well?",
+        "How would you rate the completeness of visual details?",
+        "Are any details missing or overly smoothed out?",
+        "How well does the image retain fine structure information?",
+        "Does the picture show sufficient local details?",
+        "How detailed does the image look overall?",
+        "Do you think the fine textures are adequately represented?",
+        "Rate how complete and intact the image details appear.",
+        "How much detail richness do you perceive in this image?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Detail_Completeness.json",
+      "save_train": "train/train_Detail_Completeness.json",
+      "save_test": "test/test_Detail_Completeness.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    },
+    "Semantics": {
+      "questions": [
+        "How semantically coherent does this image appear?",
+        "Are the objects and their relationships semantically reasonable?",
+        "How well does the image preserve the original meaning or content?",
+        "Does the image make logical sense in terms of scene semantics?",
+        "How would you rate the semantic consistency of this picture?",
+        "Are there any semantic distortions or unnatural object relations?",
+        "How meaningful and contextually correct does the image look?",
+        "Does the image’s content align with a real-world understanding?",
+        "How complete and reasonable are the semantic elements in this image?",
+        "How strongly do you perceive a clear and logical scene meaning?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Semantics.json",
+      "save_train": "train/train_Semantics.json",
+      "save_test": "test/test_Semantics.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    },
+    "Sharpness_Naturalness": {
+      "questions": [
+        "How natural does the image sharpness look?",
+        "Does the sharpness appear realistic or exaggerated?",
+        "How would you judge the naturalness of edge sharpness in this image?",
+        "Do you feel the image is over-sharpened or looks balanced?",
+        "How does the image’s sharpness affect its realism?",
+        "Rate the naturalness of the image’s sharp edges and textures.",
+        "How smooth or harsh do the sharp details appear?",
+        "Is the image’s sharpness consistent with a natural photo look?",
+        "How pleasing and realistic is the sharpness level in this picture?",
+        "Does the image sharpness look authentic or artificially enhanced?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Sharpness_Naturalness.json",
+      "save_train": "train/train_Sharpness_Naturalness.json",
+      "save_test": "test/test_Sharpness_Naturalness.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    },
+    "Overall_score": {
+      "questions": [
+        "How would you rate the overall quality of this image?",
+        "What is your general opinion of the image quality?",
+        "How visually pleasing is the image as a whole?",
+        "Please provide your overall quality rating for this picture.",
+        "Considering all aspects, how good is the image quality?",
+        "How satisfied are you with the image quality overall?",
+        "How does this image perform in terms of total visual quality?",
+        "Can you judge the overall visual quality of this image?",
+        "What’s your impression of the image’s overall quality?",
+        "How high would you rate the total quality of this picture?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Overall_score.json",
+      "save_train": "train/train_Overall_score.json",
+      "save_test": "test/test_Overall_score.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    },
+    "Visual_Clarity": {
+      "questions": [
+        "How clear is this image overall?",
+        "What do you think about the visual clarity of this image?",
+        "How would you rate the clarity of this picture?",
+        "Can you evaluate the image’s overall sharpness and focus?",
+        "How visually distinct are the objects in this image?",
+        "Would you say the picture looks clear or blurry?",
+        "How well-defined do the visual details appear in this image?",
+        "Please rate how clear or hazy the image looks.",
+        "How crisp and focused does the image appear to you?",
+        "What is your opinion on the image’s overall clarity?"
+      ],
+      "split_json": "split.json",
+      "mos_json": "json_dir/Visual_Clarity.json",
+      "save_train": "train/train_Visual_Clarity.json",
+      "save_test": "test/test_Visual_Clarity.json",
+      "img_dir": "",
+      "density_type": "cdf",
+      "thre_std": 0.2,
+      "thre_diff": 0.1
+    }
+  }
+}
