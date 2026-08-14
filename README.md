@@ -3,7 +3,7 @@
 <div align="center">
   <a href="https://arxiv.org/abs/2603.05010"><img src="https://img.shields.io/badge/arXiv-2603.05010-b31b1b.svg" alt="Paper"></a>
   <a href="https://drive.google.com/drive/folders/13rqCsIv7xYRCw7HJcr53WZAZ4Kpc1VFm?usp=sharing"><img src="https://img.shields.io/badge/Google%20Drive-Dataset-4285F4.svg?logo=googledrive&logoColor=white" alt="Google Drive"></a>
-  <a href="https://pan.baidu.com/s/1l0lsKFV-vK042w-VbX-95Q?pwd=QoNB"><img src="https://img.shields.io/badge/Baidu%20Netdisk-Dataset-2932E1.svg?logo=baidu&logoColor=white" alt="Baidu Netdisk"></a>
+  <a href="https://pan.baidu.com/s/1l0lsKFV-vK042w-VbX-95Q?pwd=QoNB"><img src="https://img.shields.io/badge/Baidu%20Netdisk-Dataset%20%26%20Checkpoints-2932E1.svg?logo=baidu&logoColor=white" alt="Baidu Netdisk"></a>
 </div>
 
 <div align="center">
@@ -36,7 +36,8 @@
 
 ## 📢 News
 
-- **[2026/06/16]** 🎉 Training, inference, and evaluation code is released; checkpoints are coming soon.
+- **[2026/08/14]** 🎉 The six multi-dimensional IQA checkpoints are now available in the existing Baidu Netdisk folder.
+- **[2026/06/16]** 🎉 Training, inference, and evaluation code is released.
 - **[2026/05/11]** 🎉 Dataset is now publicly available on Google Drive and Baidu Netdisk.
 - **[2026/03]** 🎉 Our paper has been accepted to **CVPR 2026 Findings**.
 - **[2026/03/04]** Repository initialized.
@@ -45,7 +46,7 @@
 
 - [x] Release the dataset
 - [x] Release the training and evaluation code
-- [ ] Release the multi-dimensional IQA checkpoints
+- [x] Release the multi-dimensional IQA checkpoints
 
 ## 🔎 Overview
 
@@ -87,9 +88,9 @@ The models are based on **mPLUG-Owl2**. Download the base weights from
 
 ## 📥 Checkpoints
 
-The six LoRA checkpoints will be released soon via a separate download link
-(to be added here — this is **not** the dataset link above). Once available,
-download them into `checkpoints/` so each model lives at
+The six LoRA checkpoints are available in the same
+[Baidu Netdisk folder](https://pan.baidu.com/s/1l0lsKFV-vK042w-VbX-95Q?pwd=QoNB)
+as the dataset (extraction code: `QoNB`). Download them into `checkpoints/` so each model lives at
 `checkpoints/deqa_lora_<dimension>/`.
 
 ## 🗂️ Directory Layout
@@ -174,21 +175,20 @@ sh scripts/eval_sharpness.sh
 
 ## 🙏 Acknowledgements
 
-This code is built on [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score), which
-is in turn based on [Q-Align](https://github.com/Q-Future/Q-Align) and
-[mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl). Sincerely thanks for these
-awesome works.
+This code is built on [DeQA-Score](https://github.com/zhiyuanyou/DeQA-Score), which is in turn based on [Q-Align](https://github.com/Q-Future/Q-Align) and [mPLUG-Owl2](https://github.com/X-PLUG/mPLUG-Owl). Sincerely thanks for these awesome works.
 
 ## 📚 Citation
 
 If you find our work useful for your research, please consider citing:
 
 ```bibtex
-@article{yin2026far,
-  title   = {How Far Have We Gone in Generative Image Restoration? A Study on Its Capability, Limitations, and Evaluation Practices},
-  author  = {Yin, Xiang and Hu, Jinfan and You, Zhiyuan and Yan, Kainan and Tang, Yu and Dong, Chao and Gu, Jinjin},
-  journal = {arXiv preprint arXiv:2603.05010},
-  year    = {2026}
+@InProceedings{yin2026far,
+    author    = {Yin, Xiang and Hu, Jinfan and You, Zhiyuan and Yan, Kainan and Tang, Yu and Dong, Chao and Gu, Jinjin},
+    title     = {How far have we gone in Generative Image Restoration? A study on its capability, limitations and evaluation practices},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+    month     = {June},
+    year      = {2026},
+    pages     = {4909-4919}
 }
 
 @inproceedings{deqa_score,
